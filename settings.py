@@ -1,0 +1,34 @@
+
+import pygame
+
+# Window settings
+WIDTH = 1000
+HEIGHT = 700
+FPS = 60
+TITLE = "Patintero: Grid Rush"
+
+# Colors
+WHITE = (255, 255, 255)
+BLACK = (25, 25, 25)
+BACKGROUND = (36, 48, 55)
+GREEN = (54, 160, 92)
+BLUE = (55, 130, 220)
+RED = (220, 65, 65)
+YELLOW = (255, 205, 60)
+GRAY = (170, 175, 180)
+
+# Patintero court
+COURT_LEFT = 170
+COURT_TOP = 110
+COURT_WIDTH = 660
+COURT_HEIGHT = 480
+GRID_ROWS = 5
+GRID_COLS = 5
+
+# Player and gameplay
+PLAYER_SPEED = 240
+PLAYER_RADIUS = 13
+GUARD_RADIUS = 15
+STARTING_LIVES = 3
+ROUND_TIME = 60
+POINTS_PER_CROSSING = 100
